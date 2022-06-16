@@ -1,0 +1,94 @@
+body {
+    margin: 10px;
+}
+.grid-section{
+    width:100%;
+    
+}
+.container{
+    width:70%;
+    
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(23, 66, 237, 0.842);
+    align-items: center;
+    color: rgb(237, 228, 228);
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 0;
+    border: 1 solid black;
+    vertical-align: top;
+  
+}
+.div2{
+    
+}
+
+.table1 {
+
+    width: auto;
+    border: 1px solid black;
+    border-spacing: 0px
+}
+
+.table2 {
+
+    width: auto;
+    border: 1px solid black;
+}
+
+p {
+    color: rgba(35, 35, 195, 0.86)
+}
+
+th {
+    background-color: rgba(37, 102, 223, 0.842);
+    margin-right: 0px;
+    color: rgb(237, 228, 228);
+    height: 40px;
+    font-family: Times New Roman;
+}
+
+
+
+
+button {
+    background-color: rgb(95, 210, 95);
+    height: 25px;
+    color: white;
+    border-width: 1px;
+}
+
+
+.div3 {
+    background-color: rgb(233, 233, 243);
+    width: auto;
+}
+
+span {
+    background-color: rgb(42, 59, 111);
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+.last-div{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    margin-top: 5px;  
+    color: white;
+    font-weight: bold;
+    font-family: times new roman; 
+    font-size: 20px; 
+    
+}
+.child1{background-color: red;}
+.child2{background-color: orange;}
+.child3{background-color: green;}
+
+.fa-solid, .fas{
+    margin: 0 10px;
+}
+
